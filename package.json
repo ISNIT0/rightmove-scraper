@@ -1,6 +1,6 @@
 {
   "name": "rightmove-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,6 @@
   "dependencies": {
     "request": "^2.79.0",
     "request-promise-native": "^1.0.3"
-  }
+  },
+  "tonicExampleFilename":"example.js"
 }
