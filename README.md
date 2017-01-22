@@ -4,7 +4,8 @@
 npm i --save rightmove-scraper
 ```
 ```javascript
-const rightmoveApi = require('rightmove-scraper');
+const outcodeData = require('./outcodeData.json'); //See https://github.com/ISNIT0/rightmove-outcode-scraper
+const rightmoveApi = require('rightmove-scraper')(outcodeData);
 
 rightmoveApi
     .byOutcode('SW10')
