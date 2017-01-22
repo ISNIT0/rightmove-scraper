@@ -1,4 +1,4 @@
-const rightmoveApi = require('rightmove-scraper');
+const rightmoveApi = require('./index.js')([{ code: 1081, outcode: 'HP13' }]);
 
 rightmoveApi
     .byOutcode('SW10')
