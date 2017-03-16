@@ -35,7 +35,7 @@ module.exports = function (outcodeData) {
             outcode = outcode.toUpperCase().trim();
             const locIdent = outcodeData[outcode];
             if (!locIdent) throw new Error(`byOutcode could not find the outcode specified (${outcode}), either the value is invalid, or your outcodeData.json file is out of date.`);
-            return `http://api.rightmove.co.uk/api/sale/find?index=0&sortType=2&numberOfPropertiesRequested=9999&locationIdentifier=OUTCODE%5E${locIdent}&apiApplication=IPAD`;
+            return `http://api.rightmove.co.uk/api/sale/find?index=0&sortType=2&numberOfPropertiesRequested=1000&locationIdentifier=OUTCODE%5E${locIdent}&apiApplication=IPAD`;
         }),
         propertyDetail: makeReq(function (propertyId) {
             if (!propertyId) throw new Error(`expecting propertyId, but got ${propertyId}`);
