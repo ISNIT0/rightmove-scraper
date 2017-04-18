@@ -1,5 +1,5 @@
-#Rightmove Scraper
-##Usage:
+# Rightmove Scraper
+## Usage:
 ```bash
 npm i --save rightmove-scraper
 ```
@@ -16,7 +16,7 @@ rightmoveApi
     .then(data => console.log(data));
 ```
 
-##Requirements:
+## Requirements:
 You will need outcodeData.json from https://github.com/ISNIT0/rightmove-outcode-scraper.
 
-##Motivation:
+## Motivation:
