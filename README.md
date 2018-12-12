@@ -1,4 +1,6 @@
 # Rightmove Scraper
+![Safe NPM](https://safenpm.herokuapp.com/status/rightmove-scraper.png)
+
 ## Usage:
 ```bash
 npm i --save rightmove-scraper
